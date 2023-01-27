@@ -9,7 +9,7 @@ const coffeReducer = (state=initialState, action) => {
     switch(action.type) {
         case BUY_COFFE : return{
             ...state ,
-            numOfCoffe : state.numOfCoffe - 1 
+            numOfCoffe : state.numOfCoffe - action.payload
         }
         default : return state
     }
