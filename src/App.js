@@ -9,18 +9,20 @@ import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
 import CoffeContainer from './components/CoffeContainer';
 import ItemContainer from './components/ItemContainer';
+import UserContainer from './components/UserContainer';
 
 function App() {
   // provider wrap all component
   return (
     <Provider store={store}> 
     <div className=" container App">
-    <ItemContainer cake />
+    {/* <ItemContainer cake />
     <ItemContainer />
       <CakeContainer /> 
       <HooksCakeContainer />
       <IceCreamContainer />
-      <CoffeContainer/>
+      <CoffeContainer/> */}
+      <UserContainer />
       
     </div>
     </Provider>

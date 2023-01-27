@@ -7,7 +7,7 @@ function ItemContainer(props) {
     <div>
         <h2> Item -{props.item}</h2>
         <button onClick={props.buyItem}> Buy Items </button>
-    </div>
+    </div> 
   )
 }
 // ItemContainer cake ise cakeleri bastirir yoksa ice creami bastirir
